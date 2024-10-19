@@ -7,7 +7,8 @@ hero:
   #text: "Personal Page (Test)"
   tagline: "Prospective PhD Student for 2025 Fall Admission"
   image: 
-    src: /assets/portrait.jpg
+    src: /portrait.png
+    alt: my portrait
   actions:
     - theme: brand
       text: My CV
