@@ -27,4 +27,4 @@ Feel free to explore my projects and get in touch!
 
 Sidenote on my name: Although it may seem like my last name is "A", that is not the case. I am a Mongolian-Chinese, member of the Mongolian ethnic minority in Inner Mongolia Autonomous Region of China. Our naming convention generally don't include last name in our names, thus the "correct" version of my name is "Asihan". (although I don't really mind correctness).
 
-However, one singular name causes trouble sometimes, such as some airlines banning me from boarding. As a result, my family decided to break up my name into two parts in all my official documents, hence the separation. In reality, I have been addressed with "Sihan" more often and I absolutely don't mind it. Thank you for reading into this part ; )
+However, one singular name causes trouble sometimes, such as some airlines banning me from boarding. As a result, my family decided to break up my name into two parts in all my official documents, hence the separation. In reality, I have been addressed with "Sihan" more often and I absolutely don't mind it. Thank you for reading to this part ; )
