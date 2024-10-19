@@ -5,12 +5,13 @@ export default defineConfig({
   title: "A Sihan (Alvin)",
   lastUpdated: true,
   description: "Personal Page (Test)",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Research', link: '/research'},
-      {text: 'CV', link: "/CV"},
+      {text: 'CV', link: "/cv"},
       {text: 'Hobbies', link: "/hobbies"}
     ],
 
