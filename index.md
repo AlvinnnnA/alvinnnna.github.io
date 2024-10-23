@@ -17,6 +17,9 @@ hero:
       text: My Research
       link: /research
     - theme: alt
+      text: Tech
+      link: /tech
+    - theme: alt
       text: Hobbies
       link: /hobbies
 ---
