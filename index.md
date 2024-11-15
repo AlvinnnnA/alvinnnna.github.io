@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: Hobbies
       link: /hobbies
+    - theme: alt
+      text: Blog
+      link: /blog/landing
 ---
 Welcome to my personal website! I am a dedicated researcher with a Bachelor's degree in Accounting from Nankai University and currently pursuing a Master's in Economics at The University of Hong Kong. With a passion for organizational behavior and strategic management, I have actively contributed to research projects focused on corporate political activity, innovation, and human resource practices.
 

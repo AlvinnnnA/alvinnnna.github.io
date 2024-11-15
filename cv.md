@@ -5,7 +5,7 @@ lastUpdated: false
 
 Note: My CV is hosted on OneDrive, the embedded widget may take some time to load.
 
-The email address in my CV uses iCloud Private Relay to hide my "real" address.
+Since this is a public page, the email address in my CV uses iCloud Private Relay linked to my personal email.
 
 CV updated on October 2024
 

@@ -7,21 +7,19 @@ Work started on July 2022, currently ongoing.
 Co-author for conference submission, draft accepted for AOM 2024 & AIB 2024.
 
 - Intellectual Contributions
-    - a
-    - b
-::: details Data Contributions (Click to Expand)
-[View my coding and empirical methods in detail](./tech)
-- Data 1
-:::
-
+    - WIP
+    - Lorem Ipsum Dolor
+- Data Contributions
+    - [View my tech experience in detail](./tech/#R)
+    - Lorem Ipsum Dolor
 
 ### Research Assistant for Prof. Muhan Zhang at Chinese University of Hong Kong <Badge type="tip" text="Ongoing" />
 Work started on August 2024, currently ongoing
 
 Part-time Research Assistant
 
-- Work 1
-- Work 2
+- Lorem Ipsum Dolor
+- Sit Amet...
 
 ### The Impact of Corporate Political Activity on Innovation: A Stakeholder-alignment Perspective <Badge type="info" text="Inactive" />
 Work started on July 2022, currently inactive
@@ -29,8 +27,7 @@ Work started on July 2022, currently inactive
 Research Assistant
 
 - Intellectual Contributions
-    - a
-    - b
+    - Lorem Ipsum Dolor
 ::: details Data Contributions (Click to Expand)
 - Data 1
 :::

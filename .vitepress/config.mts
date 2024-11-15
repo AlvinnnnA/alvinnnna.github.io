@@ -16,6 +16,7 @@ export default defineConfig({
       { text: 'Research', link: '/research'},
       {text: 'CV', link: "/cv"},
       {text: 'Tech', link: "/tech"},
+      {text: 'Blog', link: "/blog/landing"},
       {text: 'Hobbies', link: "/hobbies"}
     ],
 
