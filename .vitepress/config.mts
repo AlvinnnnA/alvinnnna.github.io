@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "A Sihan (Alvin)",
   lastUpdated: true,
-  description: "Personal Page (Test)",
+  description: "Personal Page",
   base: "/",
   markdown: {
     math: true
@@ -23,10 +23,10 @@ export default defineConfig({
     footer: {
       message: 'Powered by VitePress.',
       copyright: 'Copyright © A Sihan'
-    },
+    }
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+//    socialLinks: [
+//     { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+//    ]
   }
 })
