@@ -10,7 +10,7 @@ Co-author for conference submission, draft accepted for AOM 2024 & AIB 2024.
     - WIP
     - Lorem Ipsum Dolor
 - Data Contributions
-    - [View my tech experience in detail](./tech/#R)
+    - [View my tech experience in detail](./tech)
     - Lorem Ipsum Dolor
 
 ### Research Assistant for Prof. Muhan Zhang at Chinese University of Hong Kong <Badge type="tip" text="Ongoing" />
