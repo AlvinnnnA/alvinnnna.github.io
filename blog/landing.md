@@ -2,16 +2,15 @@
 layout: home
 
 hero:
-  tagline: Welcome to my (WIP) blog
+  tagline: Welcome to my blog (WIP)
 
 features:
   - icon: 🛠️
-    title: Test Page
-    details: Lorem ipsum...
-    link: /blog/test
+    title: Why I think R is not friendly to beginners
+    details: Tech Blog
+    link: /blog/dislike_r
   - icon: 📔
-    title: Test button
-    details: Lorem ipsum...
-  - icon: 📔
-    title: Another test button
+    title: Stories of my photography journey
+    details: Life Blog
+    link: /blog/photography_nov24
 ---
