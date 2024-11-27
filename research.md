@@ -1,8 +1,7 @@
 ---
 layout: doc
 ---
-## My research experience *in detail*
-This page provides more detail on my research experience to date, along with and my own reflections. It serves as a complement to my [CV](./cv)).
+This page provides more detail on my research experience to date, along with my own reflections. It serves as a complement to my [CV](./cv)).
 
 ::: info RESEARCH PROJECT
 #### Timing Matters: A Configurational Analysis of Top-Down and Bottom-Up Forces Shaping Firm's Adoption of LGBTQ-Friendly Human Resource Practices <Badge type="tip" text="Ongoing" />
