@@ -1,4 +1,10 @@
 ---
 layout: doc
 ---
-# My journey using R
+# My experiences using R
+
+# Dark Magic
+
+# Lack of documentation
+
+# 
