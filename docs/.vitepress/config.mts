@@ -14,11 +14,11 @@ export default defineConfig({
   // and add the same prefix to the favicon href below.
   base: '/',
 
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
+ // head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
 
   themeConfig: {
     nav: [
-      { text: 'Research statement', link: '/' },
+      { text: 'Home', link: '/' },
       { text: 'Working projects', link: '/projects/' },
     ],
 
@@ -33,7 +33,7 @@ export default defineConfig({
     // ],
 
     footer: {
-      copyright: `© ${new Date().getFullYear()} ${name}`,
+      copyright: `© ${new Date().getFullYear()} ${name}, Built with Vitepress`,
     },
   },
 })
