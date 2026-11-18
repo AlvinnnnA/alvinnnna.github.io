@@ -1,20 +1,19 @@
 ---
 title: Sihan A
-description: I study the intersection of strategic leadership and corporate social evaluations, examining how contested external audiences shape governance and strategy inside the firm.
+description: PhD Student at Penn State Smeal.
 
 # The portrait, name and lines beside the text.
 profile:
   name: Sihan A
   photo: /portrait.jpg
   interests:
-    - Strategic leadership
-    - Corporate social evaluations
+    - PhD Student at Penn State Smeal
   # Optional links under the interests. Remove the "#" marks and edit:
-  # links:
-  #   - text: Email
-  #     link: mailto:you@university.edu
-  #   - text: CV
-  #     link: /cv.pdf
+  links:
+    - text: Email
+      link: mailto:sma7519@psu.edu
+    - text: CV
+      link: /cv.pdf
 ---
 
 I study the intersection of strategic leadership and corporate social evaluations, examining how contested external audiences shape governance and strategy inside the firm. While my [current research](/projects/#current-work) investigates how stakeholder scrutiny and social activism influence CEO succession and strategic change, my [emerging agenda](/projects/#executive-narratives) explores how top executives’ actions and narratives play out across polarized social media communities. Combining computational text and multimodal analysis with qualitative discourse approaches, I seek to understand how decentralized, everyday audiences can challenge corporate legitimacy and strategic decision-making.
@@ -28,5 +27,3 @@ In my current work, I examine the influence of stakeholder challenge on firm’s
 Building on this foundation, I am developing a research agenda focused on [how top managers’ actions and narratives interact with polarized online publics](/projects/#executive-narratives). Chief executives increasingly serve as the public face of their organizations. Some notable individuals publicly take partisan stance by endorsing political figure. Some lean on highly nationalistic narratives, framing corporate strategy around broad political initiatives. Because of the fragmented and polarized nature of online communities (and actual communities), executive rhetoric that builds legitimacy with one community can simultaneously alienate another. I hope to understand how audiences perceive and mobilize around executive and corporate narratives and actions. For example, when peripheral online groups gain disproportional voice to create real influence over firms, and whether leaders’ symbolic claims may lock companies into substantive strategic commitments by catering to certain audiences.
 
 To study these dynamics, I aim to employ a broad spectrum of methodologies, including qualitative narrative and discourse approaches and computational methods. I take advantage of modern technologies to understand semantic in text and multimodal sources at scale. Ultimately, by connecting the socio-psychological realities of digital communication with strategic management, I seek to clarify how modern organizations navigate legitimacy, leadership, and strategy when consensus is elusive and almost any audience can express their voice.
-
-<p class="statement-note">GenAI disclaimer: This document is written through a multi-round conversation with Gemini to understand my own interest in greater depth.</p>
