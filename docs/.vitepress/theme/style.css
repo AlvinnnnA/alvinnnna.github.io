@@ -1,0 +1,158 @@
+/*
+ * Site-wide look, layered on top of the VitePress default theme.
+ * Colors are set as variables so light and dark mode stay in step.
+ */
+
+:root {
+  --sa-font-serif:
+    'Source Serif 4 Variable', 'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype',
+    Palatino, Georgia, serif;
+
+  /* Accent: the navy of the portrait. */
+  --vp-c-brand-1: #27477a;
+  --vp-c-brand-2: #3a65a6;
+  --vp-c-brand-3: #27477a;
+  --vp-c-brand-soft: rgba(39, 71, 122, 0.1);
+
+  /* Paper-toned background and slightly darker ink than the default. */
+  --vp-c-bg: #fdfcfa;
+  --vp-c-bg-alt: #f6f4ef;
+  --vp-c-bg-soft: #f6f4ef;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-text-1: #25262b;
+  --vp-c-text-2: #5f6068;
+
+  /* Background of the project a link has just pointed to. */
+  --sa-c-target-bg: #eff3fa;
+
+  /* Navigation bar as wide as the home page's two columns (216 + 64 + 640, plus gutters). */
+  --vp-layout-max-width: 984px;
+}
+
+.dark {
+  --vp-c-brand-1: #a9c2e8;
+  --vp-c-brand-2: #c6d7f1;
+  --vp-c-brand-3: #3d62a0;
+  --vp-c-brand-soft: rgba(169, 194, 232, 0.14);
+
+  --vp-c-bg: #15171c;
+  --vp-c-bg-alt: #101216;
+  --vp-c-bg-soft: #1c1f26;
+  --vp-c-bg-elv: #1c1f26;
+  --vp-c-text-1: #e3e3dc;
+  --vp-c-text-2: #a2a3ab;
+
+  --sa-c-target-bg: #1f2735;
+}
+
+/* Name in the navigation bar */
+.VPNavBarTitle .title {
+  font-family: var(--sa-font-serif);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* Reading column */
+.VPDoc:not(.has-aside) .content-container {
+  max-width: 660px;
+}
+
+/* Prose */
+.vp-doc {
+  font-family: var(--sa-font-serif);
+  font-size: 18px;
+}
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.7;
+}
+
+.vp-doc p {
+  margin: 20px 0;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  font-family: var(--sa-font-serif);
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+.vp-doc h2 {
+  margin-top: 44px;
+  padding-top: 32px;
+}
+
+.vp-doc a {
+  font-weight: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+}
+
+.vp-doc a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Small print under the research statement */
+.vp-doc .statement-note {
+  margin-top: 36px;
+  font-family: var(--vp-font-family-base);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+}
+
+@media (max-width: 640px) {
+  .vp-doc {
+    font-size: 17px;
+  }
+}
+
+/*
+ * Pages with a profile (the home page): portrait and name in a side column,
+ * the text beside it. Below 768px the profile sits above the text instead.
+ */
+
+/* The opening paragraph is the short summary, set a little larger. */
+.has-profile .vp-doc > div > p:first-child {
+  margin-top: 0;
+  font-size: 1.11em;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .has-profile .VPDoc:not(.has-aside) .content-container {
+    display: grid;
+    grid-template-columns: 192px minmax(0, 1fr);
+    column-gap: 40px;
+    align-items: start;
+    max-width: none;
+  }
+
+  .has-profile .VPDoc .content-container > .main,
+  .has-profile .VPDoc .content-container > .VPDocFooter {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  /* Line the first line of text up with the top edge of the portrait. */
+  .has-profile .vp-doc > div > p:first-child {
+    margin-top: -6px;
+  }
+}
+
+@media (min-width: 960px) {
+  .has-profile .VPDoc:not(.has-sidebar) .container .content {
+    max-width: 992px;
+  }
+
+  .has-profile .VPDoc:not(.has-aside) .content-container {
+    grid-template-columns: 216px minmax(0, 640px);
+    column-gap: 64px;
+    justify-content: center;
+  }
+}

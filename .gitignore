@@ -1,0 +1,10 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.DS_Store
+
+# Original source files, kept on this computer only. The repository is public:
+# the Word file carries private comments, and the site uses the resized
+# docs/public/portrait.jpg rather than the full-size photo.
+/Research Statement.docx
+/DSC07910_1.jpg
