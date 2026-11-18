@@ -40,4 +40,12 @@ Link to it from anywhere with `[link text](/projects/#ceo-succession)`. A visito
 
 ## Publish it
 
-`npm run build` produces a plain static site in `docs/.vitepress/dist` that any static host can serve. If it will live under a sub-path (for example `https://username.github.io/personalpage/`), set `base` in `docs/.vitepress/config.mts` first.
+The site is live at <https://alvinnnna.github.io>. Every push to `main` rebuilds and redeploys it through `.github/workflows/deploy.yml`, usually within a minute:
+
+```sh
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+Progress and any build errors show under the repository's Actions tab.
