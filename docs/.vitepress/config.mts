@@ -29,7 +29,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Working projects', link: '/projects/' },
+      { text: 'Projects', link: '/projects/' },
+      { text: 'CV', link: '/cv/' },
     ],
 
     // Single-column pages: no sidebar, no "On this page" outline.
@@ -43,7 +44,7 @@ export default defineConfig({
     // ],
 
     footer: {
-      copyright: `© ${new Date().getFullYear()} ${name}, Built with Vitepress`,
+      copyright: `© ${new Date().getFullYear()} ${name}, built with VitePress`,
     },
   },
 })

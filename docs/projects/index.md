@@ -21,7 +21,7 @@ Collaborative work tracing how social activism alters the pace and direction of 
 
 </ProjectEntry>
 
-## Emerging agenda {#emerging-agenda}
+## Future Agenda {#emerging-agenda}
 
 <ProjectEntry id="executive-narratives" title="Executive narratives and polarized online publics" status="In development">
 
