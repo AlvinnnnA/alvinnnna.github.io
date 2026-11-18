@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 // The name shown in the navigation bar, browser tab and footer.
 const name = 'Sihan A'
@@ -15,6 +16,15 @@ export default defineConfig({
   base: '/',
 
  // head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]],
+
+  // Footnotes are not part of VitePress itself; this plugin adds them.
+  // Write one inline as ^[text of the note], or as [^1] in the text with a
+  // matching "[^1]: text of the note" line elsewhere on the page.
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    },
+  },
 
   themeConfig: {
     nav: [

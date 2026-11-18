@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@fontsource-variable/source-serif-4": "^5.3.1",
+    "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.6.4"
   }
 }

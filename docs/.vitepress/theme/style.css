@@ -106,6 +106,21 @@
   color: var(--vp-c-text-2);
 }
 
+/* Footnotes: the raised number in the text, and the notes at the foot of the page. */
+.vp-doc .footnote-ref {
+  /* Stops the raised number pushing its line away from the one above. */
+  line-height: 0;
+}
+
+.vp-doc .footnote-ref a {
+  text-decoration: none;
+}
+
+.vp-doc .footnotes {
+  font-size: 0.85em;
+  color: var(--vp-c-text-2);
+}
+
 @media (max-width: 640px) {
   .vp-doc {
     font-size: 17px;
